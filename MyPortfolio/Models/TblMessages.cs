@@ -18,6 +18,6 @@ namespace MyPortfolio.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Subject { get; set; }
-        public string MessageContet { get; set; }
+        public string MessageContent { get; set; }
     }
 }
