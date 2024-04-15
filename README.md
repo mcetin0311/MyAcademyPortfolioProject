@@ -15,4 +15,3 @@
   <li>SQL Server</li>
 </ul>
 <p>Veri tabanı modeli</p>
-(https://github.com/mcetin0311/MyAcademyPortfolioProject/assets/162370486/8b77239e-1b73-4806-a6ea-7d7c9dee3317)
