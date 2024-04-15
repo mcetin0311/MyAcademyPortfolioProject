@@ -79,6 +79,7 @@
           <Property Name="Email" Type="nvarchar" MaxLength="250" />
           <Property Name="Subject" Type="nvarchar" MaxLength="50" />
           <Property Name="MessageContent" Type="nvarchar(max)" />
+          <Property Name="IsRead" Type="bit" />
         </EntityType>
         <EntityType Name="TblProjects">
           <Key>
@@ -246,6 +247,7 @@
           <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="MessageContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IsRead" Type="Boolean" />
         </EntityType>
         <EntityType Name="TblProjects">
           <Key>
@@ -423,6 +425,7 @@
           <EntitySetMapping Name="TblMessages">
             <EntityTypeMapping TypeName="MyAcademyPortfolioProjectModel.TblMessages">
               <MappingFragment StoreEntitySet="TblMessages">
+                <ScalarProperty Name="IsRead" ColumnName="IsRead" />
                 <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
                 <ScalarProperty Name="MessageId" ColumnName="MessageId" />
                 <ScalarProperty Name="Name" ColumnName="Name" />

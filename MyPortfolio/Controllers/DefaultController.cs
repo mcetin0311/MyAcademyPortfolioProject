@@ -66,5 +66,20 @@ namespace MyPortfolio.Controllers
 
         }
 
+        public PartialViewResult DefaultExperiencePartial()
+        {
+            var values = db.TblExperiences.ToList();
+            return PartialView(values);
+        }
+        public PartialViewResult DefaultTestimonialPartial()
+        {
+            var testimonials = db.TblTestimonials.ToList();
+            return PartialView(testimonials);
+        }
+        public PartialViewResult DefaultTeamPartial()
+        {
+            var teams = db.TblTeams.ToList();
+            return PartialView(teams);
+        }
     }
 }

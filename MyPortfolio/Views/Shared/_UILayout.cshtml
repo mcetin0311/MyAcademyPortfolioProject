@@ -1,4 +1,5 @@
-﻿
+﻿﻿@model List<MyPortfolio.Models.TblContacts>
+
 @{
     Layout = null;
 }
@@ -33,7 +34,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">MyPortfolio MÇ</a>
+            <a href="/Default/Index" class="navbar-brand">MyPortfolio</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,6 +49,8 @@
                     <a href="#review" class="nav-item nav-link">Referanslarım</a>
                     <a href="#team" class="nav-item nav-link">Ekip Arkadaşlarım</a>
                     <a href="#contact" class="nav-item nav-link">İletişim</a>
+                    <li><a class="dropdown-item" href="/Login/Index">Admin Giriş</a></li>
+
                 </div>
             </div>
         </div>
@@ -67,11 +70,11 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="footer-info">
-                    <h2>Kate Winslet</h2>
-                    <h3>123 Street, New York, USA</h3>
+                    <h2>Mahmut Çetin</h2>
+                    <h3>İstanbul</h3>
                     <div class="footer-menu">
-                        <p>+012 345 67890</p>
-                        <p>info@example.com</p>
+                        <p>0533 282 49 91 </p>
+                        <p>mahmutcetin1993@gmail.com</p>
                     </div>
                     <div class="footer-social">
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -83,7 +86,7 @@
                 </div>
             </div>
             <div class="container copyright">
-                <p>@DateTime.Now.Year &copy; <a href="/Default/Index">My Portfolio </a>, Tüm Hakları Saklıdır. | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                <p>@DateTime.Now.Year &copy; <a href="/Default/Index">My Portfolio </a>, Tüm Hakları Saklıdır.</a></p>
             </div>
         </div>
     </div>
