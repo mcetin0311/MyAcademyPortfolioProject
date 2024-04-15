@@ -7,6 +7,7 @@
 ----------------------------------------------------------------------------------
 <br />
 <b>Kullanılan Teknolojiler</b>
+<br />
 <ul>
   <li>ASP.NET MVC 5 </li>
   <li>Entity Framework</li>
