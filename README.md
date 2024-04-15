@@ -5,6 +5,7 @@
 <p> Bu proje MVC5 teknolojileri kullanılarak yapılan bir portfolio projesidir </p>
 <p> Admin ve UI tarafı olmak üzere iki kısımdan oluşmaktadır </p>
 ----------------------------------------------------------------------------------
+<br />
 <b>Kullanılan Teknolojiler</b>
 <ul>
   <li>ASP.NET MVC 5 </li>
