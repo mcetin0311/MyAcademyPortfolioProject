@@ -14,7 +14,7 @@
   <li>DB First</li>
   <li>SQL Server</li>
 </ul>
-<p>Veri tabanı modeli</p>
+<p>Proje ile alakalı görseller</p>
 <br />
 
 
